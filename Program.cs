@@ -1,28 +1,35 @@
 ﻿using System;
+
 namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
-        public static void Tong()
-        {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.Write("Nhập sô hạng thứ nhất: ");
-            int a = int.Parse(Console.ReadLine());
-            Console.Write("Nhập sô hạng thứ hai: ");
-            int b = int.Parse(Console.ReadLine());
-            Console.WriteLine("-----------------------");
-            Console.Write("Tổng 2 số a + b ={0} ", a + b);
-
-        }
         static void Main(string[] args)
         {
-            Tong();
-            Console.WriteLine("Helo World");
-            
+            int n;
+            BoiCua5();
         }
-       
+        public static void BoiCua5()
+        {
+            Console.Write("Nhập số lượng phần tử n: ");
+            string input = Console.ReadLine();
+            bool isValid = int.TryParse(input, out int n);
+
+            if (isValid && n > 0)
+            {
+                for (int i = 0; i < n; i++)
+                {
+                    if (i % 5 == 0)
+                    {
+                        Console.WriteLine("Các số chia hết cho 5 là:" + i);
+                    }  
+                }
+            }
+            else
+            {
+                Console.WriteLine("Vui lòng nhập số lượng phần tử hợp lệ.");
+            }
+        }
     }
-
-
-
 }
+

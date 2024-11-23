@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTTinhTong", "BTTinhTong\BTTinhTong.csproj", "{7D39F212-9BF2-4FE5-9E7C-5D603EDB37AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTTinhTong", "BTTinhTong\BTTinhTong.csproj", "{7D39F212-9BF2-4FE5-9E7C-5D603EDB37AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateDate_Time", "UpdateDate_Time\UpdateDate_Time.csproj", "{CD3F1C82-C733-4C1C-9CFD-88266C5DE4B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateDate_Time", "UpdateDate_Time\UpdateDate_Time.csproj", "{CD3F1C82-C733-4C1C-9CFD-88266C5DE4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DienTicCN", "DienTicCN\DienTicCN.csproj", "{9E051F09-AA88-400F-BC73-1508864E4DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DienTicCN", "DienTicCN\DienTicCN.csproj", "{9E051F09-AA88-400F-BC73-1508864E4DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH_Bien_KhaiBao", "TH_Bien_KhaiBao\TH_Bien_KhaiBao.csproj", "{690B8B35-4B7E-471C-9D4A-9D56386CBC88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TH_Bien_KhaiBao", "TH_Bien_KhaiBao\TH_Bien_KhaiBao.csproj", "{690B8B35-4B7E-471C-9D4A-9D56386CBC88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuyeDoiTienTe", "ChuyeDoiTienTe\ChuyeDoiTienTe.csproj", "{E5C6DD34-3AF0-4336-A767-2E57571F1E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuyeDoiTienTe", "ChuyeDoiTienTe\ChuyeDoiTienTe.csproj", "{E5C6DD34-3AF0-4336-A767-2E57571F1E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chuong trinh doi tuoi sang so ngay", "Chuong trinh doi tuoi sang so ngay\Chuong trinh doi tuoi sang so ngay.csproj", "{07E80C2C-4AE1-47C2-918B-0606CFF32DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E5C6DD34-3AF0-4336-A767-2E57571F1E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C6DD34-3AF0-4336-A767-2E57571F1E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C6DD34-3AF0-4336-A767-2E57571F1E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E80C2C-4AE1-47C2-918B-0606CFF32DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E80C2C-4AE1-47C2-918B-0606CFF32DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E80C2C-4AE1-47C2-918B-0606CFF32DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E80C2C-4AE1-47C2-918B-0606CFF32DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
